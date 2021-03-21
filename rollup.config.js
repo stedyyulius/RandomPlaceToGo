@@ -40,27 +40,6 @@ export default {
 		format: 'iife',
 		name: 'app',
 		file: 'public/build/bundle.js',
-		globals: {
-			process: 'process$1',
-			buffer: 'buffer$1',
-			fs: 'fs$2',
-			path: 'path$2',
-			os: 'os$1',
-			util: 'util$4',
-			child_process: 'require$$3$1',
-			https: 'require$$4',
-			http: 'require$$5',
-			stream: 'stream$1',
-			zlib: 'zlib',
-			events: 'require$$0$2',
-			assert: 'assert$1',
-			url: 'url',
-			net: 'net',
-			tls: 'tls',
-			constants: 'require$$0$3',
-			string_decoder: 'require$$1$2',
-			readline: 'require$$2$1'
-		} 
 	},
 	plugins: [
 		replace({

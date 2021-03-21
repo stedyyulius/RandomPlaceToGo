@@ -3,8 +3,6 @@
 
   import state from "../store";
 
-  import crawler from "../helpers/crawler";
-
   let randomPlace = {};
   let mymap = null;
 
@@ -33,10 +31,6 @@
     console.log(randomPlace);
     if (mymap && randomPlace.latitude) {
       mymap.panTo({ lat: randomPlace.latitude, lng: randomPlace.longitude });
-
-      // const scrapped = await crawler();
-
-      // console.log(scrapped);
     }
   });
 </script>
